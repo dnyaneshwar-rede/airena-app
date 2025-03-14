@@ -31,7 +31,9 @@ export default function TournamentMatchup() {
               animate={{ x: [0, 200, 0] }}
               transition={{ repeat: Infinity, duration: 3, ease: 'linear' }}
             ></motion.div>
-            <Image src={ty3} alt="Phoenix" width={150} height={250} className="w-32 h-32 md:w-48 md:h-48" />
+            <Image src={ty3} alt="Sage" width={500} 
+  height={550} 
+  className="w-60 h-60 md:w-72 md:h-72 transition-transform scale-150 mb-[2rem] duration-300 hover:scale-160 rounded-lg"  />
             <h2 className="text-2xl md:text-4xl font-bold mt-2 md:mt-4 uppercase tracking-wide">Shreeman</h2>
             <p className="text-red-400 text-sm md:text-lg uppercase tracking-widest">India</p>
           </motion.div>
@@ -61,7 +63,9 @@ export default function TournamentMatchup() {
               animate={{ x: [0, 200, 0] }}
               transition={{ repeat: Infinity, duration: 3, ease: 'linear' }}
             ></motion.div>
-            <Image src={ty2} alt="Sage" width={200} height={350} className="w-32 h-32 md:w-48 md:h-48" />
+            <Image src={ty2} alt="Sage" width={500} 
+  height={550} 
+  className="w-60 h-60 md:w-72 md:h-72 transition-transform scale-150 mb-[2rem] duration-300 hover:scale-160 rounded-lg"  />
             <h2 className="text-2xl md:text-4xl font-bold mt-2 md:mt-4 uppercase tracking-wide">Rahul</h2>
             <p className="text-red-400 text-sm md:text-lg uppercase tracking-widest">India</p>
           </motion.div>
