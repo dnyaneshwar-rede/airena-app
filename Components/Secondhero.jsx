@@ -67,7 +67,7 @@ const SHero = () => {
                   className="flex items-center gap-2 text-green-400"
                 >
                   <span className="text-xl">ℹ️</span>
-                  What is Atrena?
+                  What is Airena?
                 </motion.button>
               </Link>
             </div>

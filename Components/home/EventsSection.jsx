@@ -4,7 +4,7 @@ import { CalendarDays } from 'lucide-react';
 
 const events = [
   {
-    title: 'Atrena Championship',
+    title: 'Airena Championship',
     date: 'Dec 15-17, 2024',
     location: 'Los Angeles, CA',
     prize: '$50,000',

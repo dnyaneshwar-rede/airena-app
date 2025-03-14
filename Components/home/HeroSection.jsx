@@ -85,7 +85,7 @@ const HeroSection = ({ activeSlide, totalSlides, onDotClick }) => {
             <span className="flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-teal-400 bg-opacity-20 text-teal-400 mr-2">
               i
             </span>
-            What is Atrena?
+            What is Airena?
           </motion.button>
         </motion.div>
       </div>

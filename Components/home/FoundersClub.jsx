@@ -108,7 +108,7 @@ const FoundersClub = () => {
             </h2>
             <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8">
               Be among the first 200 content creators to shape the future of
-              Atrena
+              Airena
             </p>
 
             <motion.form

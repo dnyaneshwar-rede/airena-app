@@ -16,7 +16,7 @@ export const Frame = ({ className, ...props }) => {
         <img className="rectangle-142" src="rectangle-1420.svg" />
         <div className="join-the-big-tournament">Join The Big Tournament </div>
         <div className="welcome-to-atrena-the-next-generation-streaming-platform-for-gamers-and-sports-enthusiasts-join-our-community-and-start-streaming-today">
-          Welcome to Atrena - The next generation streaming platform for gamers
+          Welcome to Airena - The next generation streaming platform for gamers
           and sports enthusiasts. Join our community and start streaming today.{" "}
         </div>
         <div className="united-kingdom">United Kingdom </div>

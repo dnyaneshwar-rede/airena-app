@@ -23,7 +23,7 @@ const TournamentCard = () => {
           <div>
             <h2 className="text-3xl font-bold mb-4">Join The Big Tournament</h2>
             <p className="text-sm text-gray-300 mb-6">
-              Welcome to Atrena - The next generation streaming platform for 
+              Welcome to Airena - The next generation streaming platform for 
               gamers and sports enthusiasts. Join our community and start 
               streaming today.
             </p>
