@@ -4,21 +4,21 @@ import { CalendarDays } from 'lucide-react';
 
 const events = [
   {
-    title: 'Airena Championship',
-    date: 'Dec 15-17, 2024',
-    location: 'Los Angeles, CA',
+    title: 'NMIMS Sports Live Coverage (upcoming',
+    date: '25-26th March, 2025',
+    location: ' Air India Ground, Mumbai and Portuguese Ground, Mumbai'  ,
     prize: '$50,000',
   },
   {
-    title: 'Sports Masters',
-    date: 'Jan 5-7, 2024',
-    location: 'New York, NY',
+    title: 'Shivmudra Pratishthan Chashak 2025 Live',
+    date: '25-28th February, 2025',
+    location: 'Shramik Gymkhana, Lower Parel, Mumbai',
     prize: '$30,000',
   },
   {
-    title: 'Gaming Festival',
-    date: 'Feb 1-3, 2024',
-    location: 'Las Vegas, NV',
+    title: 'Xuberance SNDTWU Sports Festival ',
+    date: '10-14th February, 2025',
+    location: 'UMIT, SNDTU, Juhu Tara Road, Mumbai',
     prize: '$25,000',
   },
 ];
