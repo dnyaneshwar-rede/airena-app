@@ -7,19 +7,19 @@ const events = [
     title: 'NMIMS Sports Live Coverage (upcoming',
     date: '25-26th March, 2025',
     location: ' Air India Ground, Mumbai and Portuguese Ground, Mumbai'  ,
-    prize: '$50,000',
+    
   },
   {
     title: 'Shivmudra Pratishthan Chashak 2025 Live',
     date: '25-28th February, 2025',
     location: 'Shramik Gymkhana, Lower Parel, Mumbai',
-    prize: '$30,000',
+    
   },
   {
     title: 'Xuberance SNDTWU Sports Festival ',
     date: '10-14th February, 2025',
     location: 'UMIT, SNDTU, Juhu Tara Road, Mumbai',
-    prize: '$25,000',
+    
   },
 ];
 
@@ -42,7 +42,7 @@ const EventsSection = () => {
               <div className="space-y-1 mb-4 sm:mb-6">
                 <p className="text-sm sm:text-base text-gray-400">{event.date}</p>
                 <p className="text-sm sm:text-base text-gray-400">{event.location}</p>
-                <p className="text-sm sm:text-base text-green-400 mt-2 sm:mt-3">Prize Pool: {event.prize}</p>
+                
               </div>
               <Button 
                 className="w-full bg-transparent text-white border border-green-400/70 hover:bg-green-400/10 rounded-md text-sm sm:text-base py-1.5 sm:py-2"

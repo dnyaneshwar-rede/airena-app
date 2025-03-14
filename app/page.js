@@ -37,7 +37,7 @@ export default function Home() {
 
         <SHero/>
   
-        <div className="bg-black">
+        <div className="bg-black p-6">
           <CategoryPills />
 
           {/* <div className="max-w-6xl mx-auto px-4 py-8">
