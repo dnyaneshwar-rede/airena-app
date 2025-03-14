@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const slide = {
   title: 'The Ultimate Gaming & Sports Streaming Platform',
@@ -9,6 +8,13 @@ const slide = {
 };
 
 const SHero = () => {
+  const scrollToSection = () => {
+    const section = document.getElementById('join-now-section');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative w-full h-screen bg-black text-white overflow-hidden">
       {/* Background Image */}
@@ -20,25 +26,15 @@ const SHero = () => {
           <h1 className="text-4xl md:text-6xl font-bold">{slide.title}</h1>
           <p className="mt-4 text-lg md:text-xl text-gray-300">{slide.description}</p>
           <div className="mt-6 flex gap-4">
-            <Link href="#" passHref>
-              <motion.button
-                whileHover={{ scale: 0.9 }}
-                whileTap={{ scale: 0.9 }}
-                className="bg-green-500 text-black font-semibold px-6 py-3 rounded-lg"
-              >
-                Start Watching
-              </motion.button>
-            </Link>
-            <Link href="#" passHref>
-              <motion.button 
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="flex items-center gap-2 text-green-400"
-              >
-                <span className="text-xl">ℹ️</span>
-                What is Airena?
-              </motion.button>
-            </Link>
+            {/* ✅ Removed the <Link> tag to prevent unwanted behavior */}
+            <motion.button
+              whileHover={{ scale: 0.9 }}
+              whileTap={{ scale: 0.9 }}
+              className="bg-green-500 text-black font-semibold px-6 py-3 rounded-lg"
+              onClick={scrollToSection} // Scroll function
+            >
+              Join Now
+            </motion.button>
           </div>
         </div>
       </div>

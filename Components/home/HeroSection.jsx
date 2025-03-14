@@ -75,18 +75,9 @@ const HeroSection = ({ activeSlide, totalSlides, onDotClick }) => {
             whileHover="hover"
             className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 sm:py-3 px-6 sm:px-8 rounded-md transition-colors duration-300 text-sm sm:text-base"
           >
-            Start Watching
+           Join Now
           </motion.button>
-          <motion.button
-            variants={buttonVariants}
-            whileHover="hover"
-            className="flex items-center text-teal-400 hover:text-teal-300 transition-colors duration-300 text-sm sm:text-base"
-          >
-            <span className="flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-teal-400 bg-opacity-20 text-teal-400 mr-2">
-              i
-            </span>
-            What is Airena?
-          </motion.button>
+          
         </motion.div>
       </div>
       

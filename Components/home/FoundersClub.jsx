@@ -90,7 +90,7 @@ const FoundersClub = () => {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-3 sm:px-4">
+    <div id="join-now-section" className="w-full max-w-6xl mx-auto px-3 sm:px-4">
       <motion.div
         className="bg-gray-900 rounded-lg overflow-hidden mb-8 sm:mb-12"
         initial={{ opacity: 0, y: 20 }}

@@ -81,13 +81,13 @@ const VideoSlider = () => {
               onClick={prevSlide}
               className="bg-gray-800 p-1 md:p-2 rounded-full shadow-lg hover:bg-gray-700 transition-all"
             >
-              <ArrowLeft size={18} className="text-white md:size-20" />
+              <ArrowLeft size={14} className="text-white md:size-20" />
             </button>
             <button
               onClick={nextSlide}
               className="bg-gray-800 p-1 md:p-2 rounded-full shadow-lg hover:bg-gray-700 transition-all"
             >
-              <ArrowRight size={18} className="text-white md:size-20" />
+              <ArrowRight size={14} className="text-white md:size-20" />
             </button>
           </div>
         )}
