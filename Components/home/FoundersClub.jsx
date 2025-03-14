@@ -107,7 +107,13 @@ const FoundersClub = () => {
             <motion.form onSubmit={handleSubmit} className="max-w-lg mx-auto text-left" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
               {Object.keys(initialState).map((field) => (
                 <div key={field} className="mb-3">
-                  <label htmlFor={field} className="block text-xs sm:text-sm text-gray-400 mb-1">{field.replace(/([A-Z])/g, ' $1').trim()}:</label>
+                  <label htmlFor={field} className="block text-xs sm:text-sm text-gray-400 mb-1">
+  {field
+    .replace(/([A-Z])/g, ' $1') // Add space before capital letters
+    .replace(/^./, (str) => str.toUpperCase()) // Capitalize first letter
+    .replace('Sport Game', 'Sport / Game') // Custom label for specific fields
+    .trim()}:
+</label>
                   <input type="text" id={field} name={field} value={formData[field]} onChange={handleChange} className={`w-full h-9 px-3 bg-transparent border rounded-md focus:ring-1 focus:ring-green-400 ${errors[field] ? "border-red-500" : "border-gray-700"}`} />
                   {errors[field] && <p className="text-red-500 text-xs mt-1">{errors[field]}</p>}
                 </div>
